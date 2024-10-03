@@ -1,0 +1,173 @@
+ * {
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+     font-family: "montserrat",sans-serif;
+ }
+
+ header {
+     background-color: rgba(0, 0, 0, 0.02);
+     width: 100%;
+     position: fixed;
+     display: flex;
+     justify-content: space-between;
+     align-items: center
+ }
+
+ body {
+     font-family: montserrat;
+     width: 100%;
+     height: 100vh;
+ }
+ 
+  
+ nav {
+
+     height: 80px;
+     width: 100%;
+ }
+
+ a.logo {
+     color: white;
+     font-size: 35px;
+     line-height: 80px;
+     margin-left: 25.5px;
+     float: left;
+     font-weight: bold;
+ }
+
+ nav ul {
+     float: right;
+     margin-right: 20px;
+ }
+
+ nav ul li {
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+ }
+
+ nav ul li a {
+     color: white;
+     font-size: 17px;
+     padding: 7px 13px;
+     border-radius: 3px;
+     text-transform: uppercase;
+ }
+
+ li a:hover {
+     color: rgb(113, 122, 194);
+     transition: .3s;
+ }
+
+ .container {
+     position: relative;
+     text-align: center;
+     color: white;
+ }
+
+ .centered {
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%, -140%);
+     color: rgb(247, 185, 185);
+     font-size: 14px;
+     background: rgba(0, 0, 0, 0.7);
+
+ }
+
+ .containe {
+     position: relative;
+     text-align: center;
+     color: white;
+ }
+
+ .centere {
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%, -350%);
+     color: rgb(240, 193, 193);
+     font-size: 20px;
+ }
+
+
+ .cont {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.cent {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -650%);
+    color: rgb(231, 231, 231);
+    font-size: 15px;
+}
+table{
+    position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%, 50%);
+     color: rgb(185, 175, 175);
+     font-size: 25px;
+}
+ #T {
+     width: 100%;
+     height: 155vh;
+     background-size: cover;
+     background-color: rgba(0, 0, 0, 0.02);
+
+     
+ }
+
+ .slideshow {
+  width:100%;
+  height: 100vh;
+  box-shadow: 0 0 25px -3px rgba(0,0,0,0.4);
+  background-size: cover;
+}
+
+.slideshow img {
+  width: 100%;
+  height: 99.9vh;
+  background-size: cover;
+}
+.containr
+ {
+    position: relative;
+    width: 1150px;
+    height: 300px;
+    margin:  auto;
+
+
+
+
+
+ }
+.containr .box1
+ {
+    position: relative;
+    width: calc(330px - 30px);
+    height: calc(300px - 30px);
+    background:black;
+    float: left;
+    margin: -100px 830px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+ }
+ .vb {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -160%);
+  color: rgb(247, 185, 185);
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.02);
+ }
